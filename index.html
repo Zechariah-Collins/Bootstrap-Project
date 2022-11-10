@@ -14,14 +14,15 @@
   <head>
   <body>
     <div class="container-fluid">
-        <div class="row my-row">
-            <div class="col-md-3 col-sm-3" style="background-color:#1B2021; color:azure"> 
+      <!--Row Container-->
+      <div class="row my-row">
+          <!--First Column-->  
+          <div class="col-md-3 col-sm-3 first-col" style="background-color:#1B2021; color:azure"> 
                 <div class="Heading">Inbox Menu</div>
                 <button type="button" class="btn btn-warning" id="Compose">Compose</button>
                 <img src="My-Img.JPG" id="user-img">
-                <div class="user"><i class="fa-sharp fa-solid fa-user user"> </i></div>
                 <div class="user-text">Welcome Zechariah!</div>
-               
+               <!--List including Inbox, Sent, Deleted, etc.-->
                 <ul class="list-group list">
                     <a href="#" class="list-group-item active" aria-current="true">Inbox</a>
                     <a href="#" class="list-group-item">Tagged</a>
@@ -29,6 +30,7 @@
                     <a href="#" class="list-group-item">Sent</a>
                     <a href="#" class="list-group-item">Deleted</a>
                 </ul>
+               <!--Hamburger for Mobile View-->
                 <div class="Hamburger">
                   <div class="collapse" id="navbarToggleExternalContent">
                     <div class="bg-dark p-4">
@@ -54,20 +56,51 @@
                   </div>
                   
             </div>
+            <!--Second Column-->
             <div class="col-md-3 col-sm-9" style="background-color:#51513D; color: azure;" >
                  <div class="Heading">Messages</div>
                   <div class="container">
+                    <!--Messages Section-->
                     <input type="text" class="textbox" placeholder="Search For Recipients">
                     <div class="h">
-                      <div class="Josh"><h6>Josh</h6></div>
                     </div>
                     <div class="text"> 
-                      <p>Hey Zach wanted to see if you got</p> 
+                      <p><div class="Josh Email-name"><strong>Josh.Leroy@gmail.com</strong></div><br>
+                        Hey Zach wanted to see if you got my text regarding the </p> 
                     </div>
+                    <div class="text">
+                      <div class="David Email-name"><strong>David.Herrera@gmail.com</strong></div><br>
+                        Was just reaching out to see how the progress 
+                    </div>
+                    <div class="text">
+                      <div class="Cassius Email-name"><strong>Cassius.Winston@gmail.com</strong></div><br>
+                        Hey Zach, I was curious about 
+                    </div>
+                    <div class="text">
+                      <div class="Cohort229 Email-name"><strong>Cohort229@gmail.com</strong></div><br>
+                        A comment was added to your recent assignment. Click the link below to view 
+                    </div>
+                      
                   </div>
-                </div>
+            </div>
+            <!--Third Column-->
             <div class="col-md-6" style="background-color:#A6A867; color: azure;"> 
-                <div class="Heading" id="Selected">Selected Message</div> 
+              <!--Selected Messages Section-->  
+              <div class="Heading" id="Selected">Selected Message</div> 
+                <div class="tofrom">
+                  <body>To: Zechariah.Collins.Cohort229@gmail.com <br>
+                  From: Josh.Leroy@gmail.com
+                  </body>
+                </div>
+                <div class="container-fluid">
+
+                <div class="body_msg">
+                  Hey Zach wanted to see if you got my text 
+                    regarding the upcoming project. 
+                    I was thinking our group could hop on a call tonight.
+                    Let me know your thoughts.
+                </div>
+                </div>
             </div>
             
         </div> 
